@@ -1,0 +1,129 @@
+*::after,*::before
+body{
+    background-color: blanchedalmond;
+    padding: auto 0;
+    margin: auto 0;
+}
+.body{
+	display: flex;
+}
+
+.donate{
+	list-style: none;
+	margin-top: 20px;
+	margin-left:45%;
+    font-size: 26px;
+}
+.donate a{
+    border: 2px solid black
+}
+.donateIB{
+	list-style: none;
+	margin-left:45%;
+    font-size: 26px;
+}
+.donateIB a{
+    border: 2px solid black;
+}
+
+.logo{
+    margin-left: 20px;
+    padding-top: 0px;
+    width: 2cm;
+    height: 2cm;/* 
+	padding-bottom:0; */
+}
+.header{
+    margin-top: 5px;
+	margin-left: 35px;
+    padding: 0;
+}
+.span{
+	margin-right: 50px;
+}
+.navbar{
+    background-color: rgba(176, 174, 174, 0.6);
+    width: 97%;
+    margin-left: 20px;
+    height: 50px;
+    border-radius: 10px;
+}
+.navbar ul{
+    font-size: large;
+    width: 100%;
+    padding-left: 0%;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.navbar ul li{
+    background-color: rgba(34, 182, 219, 0.1);
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    align-items: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(34, 182, 219);
+    text-transform: uppercase;
+    justify-content: center;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+} 
+.navbar ul li:hover::after{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.image-block{
+    /* width: 100%; */
+    position: relative;
+    font-family: Arial;
+    margin-top: 20px;
+    padding-right: 10px
+    
+  }
+
+ /*  
+  .text-block {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color: rgb(242, 237, 237);
+    color: rgb(9, 9, 9);
+    padding-top: 180px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+
+  } */
+
+  .text-block {
+    position: absolute;
+    padding-top: 10px;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgb(249, 245, 245);
+    color: rgb(13, 12, 12);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    height: 70%;
+  }
+
+  .imageBlock{
+    width:80%;
+    height: 420px;
+    align-items: center;
+  }
+  
